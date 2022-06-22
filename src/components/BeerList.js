@@ -11,17 +11,14 @@ function BeerList() {
         console.error(error);
     }
     const success = (data) => {
-        const beers = JSON.parse(data.target.responseText)
-        setBeerItems(beers)
+        setBeerItems(data)
     }
-
-    useEffect(() => {
-        const req = new XMLHttpRequest();
-        req.onload = success;
-        req.onerror = error;
-        req.open('GET', API_URL)
-        req.send()
-    }, [])
+    useEffect(()=>{
+        fetch(API_URL)
+        .then(res => res.json())
+        .then(success)
+        .catch(error)
+    },[])
 
     return (
         <MainWrapper>
