@@ -1,6 +1,7 @@
 import BeerItem from './BeerItem';
 import { useEffect, useState } from 'react';
 import { MainWrapper, TitleWrapper } from './BeerList.styles';
+import axios from 'axios'
 
 const API_URL = 'https://api.punkapi.com/v2/beers'
 
@@ -13,11 +14,9 @@ function BeerList() {
     const success = (data) => {
         setBeerItems(data)
     }
+
     useEffect(()=>{
-        fetch(API_URL)
-        .then(res => res.json())
-        .then(success)
-        .catch(error)
+        axios.get(API_URL).then(res => success(res.data)).catch((err)=>error(err))
     },[])
 
     return (
