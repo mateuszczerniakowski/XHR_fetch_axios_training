@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/static/css/main.72e036e5.css",
+    "main.js": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/static/js/main.8ab21cbe.js",
+    "static/js/787.0d4a4c2d.chunk.js": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/static/js/787.0d4a4c2d.chunk.js",
+    "static/media/bar.jpeg": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/static/media/bar.fd78066cc64acbdca161.jpeg",
+    "index.html": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/index.html",
+    "main.72e036e5.css.map": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/static/css/main.72e036e5.css.map",
+    "main.8ab21cbe.js.map": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/static/js/main.8ab21cbe.js.map",
+    "787.0d4a4c2d.chunk.js.map": "/git@github.com:mateuszczerniakowski/XHR_fetch_axios_training.git/static/js/787.0d4a4c2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72e036e5.css",
+    "static/js/main.8ab21cbe.js"
+  ]
+}
